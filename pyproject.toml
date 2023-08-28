@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "stripe-traveller"
-version = "0.2.0"
+version = "1.0.0"
 description = "Wraps the Stripe Test Clock object for easier async/await-based test functions."
 readme = "README.md"
 authors = ["Tyler Eon"]
 license = "GNU LGPL v2.1"
 packages = [{include = "stripe_traveller"}]
 classifiers = [
-  "Development Status :: 4 - Beta",
+  "Development Status :: 5 - Production/Stable",
   "Topic :: Software Development :: Testing"
 ]
 
