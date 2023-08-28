@@ -1,16 +1,24 @@
 [tool.poetry]
 name = "stripe-traveller"
-version = "0.1.0"
-description = "Wraps the Test Clock object for easier async/await-based test functions."
+version = "0.2.0"
+description = "Wraps the Stripe Test Clock object for easier async/await-based test functions."
+readme = "README.md"
 authors = ["Tyler Eon"]
 license = "GNU LGPL v2.1"
 packages = [{include = "stripe_traveller"}]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Topic :: Software Development :: Testing"
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
 stripe = "^6.1.0"
 
 [tool.poetry.dev-dependencies]
+
+[project.urls]
+"Homepage" = "https://github.com/tyler-eon/stripe-traveller-py"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
