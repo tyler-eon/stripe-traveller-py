@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Wraps the Test Clock object for easier async/await-based test functions."
 authors = ["Tyler Eon"]
 license = "GNU LGPL v2.1"
+packages = [{include = "stripe_traveller"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
